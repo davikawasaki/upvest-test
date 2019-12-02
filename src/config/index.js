@@ -22,6 +22,7 @@ if (process.env.NODE_ENV === 'staging') {
   config = {
     mongo: { uri: process.env.MONGODB_URI },
     whitelist: [],
+    port: process.env.PORT || 3000,
   };
 }
 
