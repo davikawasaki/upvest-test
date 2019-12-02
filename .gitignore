@@ -1,3 +1,6 @@
+# Bin
+storage/
+
 # Logs
 logs
 *.log
