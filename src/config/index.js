@@ -21,7 +21,7 @@ if (process.env.NODE_ENV === 'staging') {
 } else if (process.env.NODE_ENV === 'production') {
   config = {
     mongo: { uri: process.env.MONGODB_URI },
-    whitelist: ['upvest-blockchain-api.herokuapp.com'],
+    whitelist: ['https://upvest-blockchain-api.herokuapp.com'],
     port: process.env.PORT || 3000,
   };
 }

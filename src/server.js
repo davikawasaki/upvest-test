@@ -15,7 +15,8 @@ const ddosInstance = new Ddos(ddosConfig);
 const corsOptions = {
   exposedHeaders: '',
   origin: (origin, callback) => {
-    if (!whitelist || whitelist.includes(origin)) callback(null, true);
+    console.log(`+++++++ CORS Origin Sniffer: ${origin}.`);
+    if (!origin || whitelist.includes(origin)) callback(null, true);
     else callback(new Error('Not allowed by CORS'));
   },
 };
