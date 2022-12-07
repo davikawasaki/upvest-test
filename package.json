@@ -18,12 +18,12 @@
   },
   "homepage": "https://github.com/davikawasaki/upvest-test#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "compression": "^1.7.4",
     "cors": "^2.8.5",
     "ddos": "^0.2.1",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-server-logs": "^1.0.4",
     "helmet": "^3.21.2",
     "mongoose": "^5.7.13"
